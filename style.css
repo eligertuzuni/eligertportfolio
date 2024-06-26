@@ -418,9 +418,45 @@ button:focus {
   width: 225%;
   height: 562.5px;
 }
+/* .third_btn {
+  margin-top: 12px;
+} */
+
+/*just for examp*/
+
+.third_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 16px;
+}
+/*Third_btn designed*/
+
+.third_btn:hover {
+  background-color: #9fadbd;
+}
+
+.third_btn a:hover {
+  color: #ffcc00; /* Change link color on hover */
+}
+
+.third_btn a {
+  color: #3e57d0; /* Change link color inside the button */
+  text-decoration: none; /* Remove underline from link */
+}
 .hero-caption-btn a.button-2 {
   margin-left: 20px;
 }
+
 /*
  * 6. About Us Area
 */
