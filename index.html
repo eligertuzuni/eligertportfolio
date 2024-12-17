@@ -504,33 +504,34 @@
 		<!-- Start Contact Area -->
 		<section class="contact-area pt-100 pb-100 section-bg" id="contact">
 			<div class="container">
-				<!-- Section Headding -->
+				<!-- Section Heading -->
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="section-headding mb-50 text-center">
 							<h2>Contact Me</h2>
 							<div class="title-divider"></div>
 							<br>Contact me to discuss your project or if you want to hire me.<br />
-							Please fill out the form below, and I'll get back to you as soon as possible.</p>
+							Please fill out the form below, and I'll get back to you as soon as possible.
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2">
 						<div class="contact-form">
-							<form action="#">
+							<!-- Netlify Form Integration -->
+							<form name="contact" method="POST" netlify>
 								<div class="row">
 									<div class="col-lg-6">
-										<input type="text" name="name" placeholder="Your Name">
+										<input type="text" name="name" placeholder="Your Name" required>
 									</div>
 									<div class="col-lg-6">
-										<input type="email" name="email" placeholder="Your Email">
+										<input type="email" name="email" placeholder="Your Email" required>
 									</div>
 									<div class="col-12">
-										<input type="text" name="sub" placeholder="Your Subject">
+										<input type="text" name="subject" placeholder="Your Subject" required>
 									</div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Your Message"></textarea>
+										<textarea name="message" placeholder="Your Message" required></textarea>
 									</div>
 									<div class="col-12">
 										<button class="button-1" type="submit">Submit <span></span></button>
@@ -542,6 +543,9 @@
 				</div>
 			</div>
 		</section>
+		<!-- End Contact Area -->
+
+
 		<!-- End Contact Area -->
 		<!-- Start Footer Area -->
 		<footer class="footer">
