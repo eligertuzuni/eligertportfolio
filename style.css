@@ -134,7 +134,7 @@ button:focus {
 }
 
 .first-sp {
-  color: #e1d0d0;
+  color: whitesmoke;
 }
 .first_sp1 {
   color: #f6f5f2;
@@ -182,7 +182,8 @@ button:focus {
 }
 .logo h2 {
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
+  margin-top: 6.5px;
 }
 .logo h2 a {
   color: #fff;
@@ -312,7 +313,13 @@ button:focus {
   justify-content: center;
 }
 .heor-img img {
-  width: 80%;
+  width: 63%;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 .hero-caption-full h5 {
   color: #ffbd39;
@@ -465,7 +472,7 @@ button:focus {
 }
 .about-info h5 {
   color: #ffbd39;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -1044,4 +1051,22 @@ button:focus {
 }
 .footer-bottom p a:hover {
   color: #fff;
+}
+
+/* Default CSS for all screen sizes */
+.heor-img img {
+  width: 63%;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  margin-left: 0; /* Default margin for smaller screens */
+}
+
+/* Media Query: Apply margin-left only for screens 991px and above */
+@media (min-width: 991px) {
+  .heor-img img {
+    margin-left: 60px;
+  }
 }
