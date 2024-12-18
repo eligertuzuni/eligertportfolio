@@ -1052,6 +1052,36 @@ button:focus {
 .footer-bottom p a:hover {
   color: #fff;
 }
+/*Footer modification for number and email*/
+
+/* .phone-link {
+  color: #6a5acd;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+/* Email link */
+/* .email-link {
+  color: #ffa500;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+/* Optional: Hover effect */
+/* .phone-link:hover,
+.email-link:hover {
+  text-decoration: underline;
+} */
+
+.phone-link {
+  color: #6a5acd !important;
+  font-weight: bold;
+}
+
+.email-link {
+  color: #ffa500 !important;
+  font-weight: bold;
+}
 
 /* Default CSS for all screen sizes */
 .heor-img img {
